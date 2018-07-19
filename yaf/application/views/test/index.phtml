@@ -1,0 +1,15 @@
+<?php echo $data1; ?>
+<hr>
+<?= $data1 ?>
+<hr>
+<?php if($data2['sex']=='男'): ?>
+	jj
+<?php else: ?>
+	mm
+<?php endif; ?>
+<hr>
+<?php foreach($data3 as $v): ?>
+	<?= $v['name'] ?>-
+	<?= $v['age'] ?>-
+	<?= $v['sex'] ?><br>
+<?php endforeach; ?>
